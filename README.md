@@ -22,4 +22,4 @@ for i in range(char.num_skills):
 
 char.save('player.fch')
 ```
-
+#### NOTE : It might need to adjust `character.file_size` and `character.data_len` yourself if you have edited any data in string format which also changes the size of character file.
