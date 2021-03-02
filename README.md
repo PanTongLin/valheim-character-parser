@@ -1,10 +1,11 @@
 # valheim-character-parser
-### Valheim character file (.fch) parser with load/save function in python
+### Valheim character file (.fch) parser in python
 ***
 This repository is a parser for character file (.fch) of [Valheim](https://www.valheimgame.com/).  
-And this is mainly migrate from parser of [ValheimCharacterEditor](https://github.com/byt3m/Valheim-Character-Editor/blob/main/ValheimCharacterEditor/Parser.cs).
+And this is mainly rewrite from the parser of [ValheimCharacterEditor](https://github.com/byt3m/Valheim-Character-Editor/blob/main/ValheimCharacterEditor/Parser.cs).
 
-You can eaisly load the character file in a single line and edit its profile, then also dump the modified one in one line.  
+If you want to change your appearance, name, or skill level, etc.
+You can eaisly load the character file in a single line and edit its profile, then also dump the modified one in a single line.  
 ```diff
 - ALWAYS REMEMBER TO BACKUP BEFORE YOU EDIT THE CHARACTER FILE !!!
 ```
